@@ -9,20 +9,20 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item px-lg-4 home-selected">
-              <a class="nav-link text-uppercase text-expanded" href="/">Home</a>
-            </li>
-            <li class="nav-item px-lg-4 about-selected">
-              <a class="nav-link text-uppercase text-expanded" href="/about">About</a>
-            </li>
-            <li class="nav-item px-lg-4 products-selected">
-              <a class="nav-link text-uppercase text-expanded" href="/products">Our Product</a>
-            </li>
-            <li class="nav-item px-lg-4 contact-selected">
-              <a class="nav-link text-uppercase text-expanded" href="/contact">Contact Us</a>
-            </li>
-          </ul>
+          <div class="navbar-nav mx-auto">
+            <div class="nav-item px-lg-4">
+              <router-link class="nav-link text-uppercase text-expanded" to="/">Home</router-link>
+            </div>
+            <div class="nav-item px-lg-4">
+              <router-link class="nav-link text-uppercase text-expanded" to="/about">About</router-link>
+            </div>
+            <div class="nav-item px-lg-4">
+              <router-link class="nav-link text-uppercase text-expanded" to="/products">Our Product</router-link>
+            </div>
+            <div class="nav-item px-lg-4">
+              <router-link class="nav-link text-uppercase text-expanded" to="/contact">Contact Us</router-link>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

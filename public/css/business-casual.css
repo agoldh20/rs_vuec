@@ -82,7 +82,7 @@ p {
   font-weight: 800;
 }
 
-#mainNav .navbar-nav .nav-item.active .nav-link {
+#mainNav .navbar-nav .nav-item .nav-link.router-link-exact-active {
   color: #e6a756;
 }
 
@@ -93,7 +93,7 @@ p {
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
   }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+  #mainNav .navbar-nav .nav-item .nav-link.router-link-exact-active:hover {
     color: #e6a756;
   }
 }
