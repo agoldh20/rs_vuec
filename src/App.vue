@@ -7,7 +7,7 @@
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-          <span>  RangeSavers</span>
+          <img src="../public/mobile-logo-icon.png" />
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <div class="navbar-nav mx-auto">
