@@ -7,7 +7,6 @@
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-          <img src="../public/mobile-logo-icon.png" />
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <div class="navbar-nav mx-auto">
@@ -25,6 +24,8 @@
             </div>
           </div>
         </div>
+                  <img class="navbar-toggler" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" src="../public/mobile-logo-icon.png" id="icon-toggler"/>
+
       </div>
     </nav>
     <router-view />
@@ -35,5 +36,3 @@
     </footer>
   </div>
 </template>
-
-<style></style>
