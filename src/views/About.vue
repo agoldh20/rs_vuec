@@ -11,7 +11,6 @@
                 <span class="section-heading-lower">About Us</span>
               </h2>
               <p><strong>Jacob Galster - CEO</strong></p>
-              <p class="mb-0"><strong>Geoffrey Winner - COO</strong></p>
             </div>
           </div>
         </div>

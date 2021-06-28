@@ -1,65 +1,55 @@
 <template>
-  <!-- 
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex ml-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Blended to Perfection</span>
-              <span class="section-heading-lower">Coffees &amp; Teas</span>
-            </h2>
-          </div>
-        </div> -->
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="https://i1.wp.com/strengthandfitnessclubturf.com/wp-content/uploads/2016/08/Golf-Coming-Soon.png" alt="">
-       <!--  <div class="product-item-description d-flex mr-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>
-          </div>
-        </div>
+  <div class="products">
+    <div class="card mx-auto">
+      <div class="card-body">
+        <h5 class="card-title">Covid 19 Disclaimer</h5>
+        <p class="card-text">Due to Covid 19, we have taken the year to perfect our product. The following are photos of our previous models.</p>
       </div>
     </div>
-  </section> -->
-
-  <!-- <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex mr-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Delicious Treats, Good Eats</span>
-              <span class="section-heading-lower">Bakery &amp; Kitchen</span>
-            </h2>
-          </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="~@/assets/images/Resized_20210624_201532.jpeg" alt="First slide">
         </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg" alt="">
-        <div class="product-item-description d-flex ml-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p>
-          </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="~@/assets/images/Resized952021062495201623.jpg" alt="Second slide">
         </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex ml-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">From Around the World</span>
-              <span class="section-heading-lower">Bulk Speciality Blends</span>
-            </h2>
-          </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="~@/assets/images/Resized_20200804_202619_97994044766314.jpeg" alt="Third slide">
         </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg" alt="">
-        <div class="product-item-description d-flex mr-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>
-          </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="~@/assets/images/Resized_20210624_201606.jpeg" alt="Fourth slide">
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </section> -->
+  </div>
 </template>
+
+<style>
+  .card {
+    width: 35rem;
+    /*padding: 1rem;*/
+  }
+
+  img {
+    max-width: 50%;
+    height: auto%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
